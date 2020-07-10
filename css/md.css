@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px){
+    /*----------------------INDEX---------------------------*/
+    
+    #menu-ham{
+        width: 60%;
+        min-width: 100px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+    }
+    #abrir-ham{
+        display: inline-block;
+    }
+    #menuPrincipal{
+        height: 0px;
+        width: 90%;
+        overflow: hidden;   
+    }
+    #cabecera:target #abrir-ham{
+        display: none;
+    }
+    #cabecera:target #cerrar-ham{
+        display: inline-block;
+    }
+
+    #cabecera:target #menuPrincipal{
+        height: 250px;
+    }
+    .opcion{
+        width: 100%;
+        text-align: left;
+    }
+
+    #secciones{
+        text-align: center;
+    }
+    #barraBusqueda{
+        margin-top: 0px;
+    }
+
+    .info{
+        width: 80%;
+        margin-bottom: 3%;
+    }
+
+    .info img{
+        width: 100%;
+    }
+
+    .separar-izq-nulo{
+        margin-left: 0px;
+    }
+
+    #aviso{
+        font-size: 1.7rem;
+        padding-top: 15%;
+    }
+
+}

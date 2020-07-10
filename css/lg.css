@@ -1,0 +1,105 @@
+@media screen and (max-width: 992px){
+    /*INDEX*/
+
+    #barraBusqueda{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    #barraBusqueda h1{
+        font-size: 50px;
+    }
+    #barraBusqueda input{
+        height: 40px;
+    }
+    
+    .secciones{
+        padding: 7% 2.5%;
+    }
+    #quienes h1{
+        font-size: 2.5rem;
+    }
+    .secciones{
+        padding: 5%;
+    }
+    .info{
+        width: 250px;
+    }
+
+
+
+    .contenedor-body{
+        flex-wrap: wrap;
+    }
+    .copyright{
+        font-size: .8rem;
+    }
+        .copyright a{
+        font-size: .8rem;
+    }
+    .terminos a{
+        font-size: .8rem;
+    }
+
+    .columna2, .columna3{
+        margin-top: 0px;
+    }
+
+    .columna1 a{
+
+        font-size: .8rem;
+    }
+    .columna2 h1{
+        font-size: 18px;
+    }
+    .columna3 h1{
+        font-size: 18px;
+    }
+
+
+/*---------------------------------------CONTACTO---------------------------------------------*/
+
+#tituloContacto{
+    padding: 50px;
+}
+#FB h1{
+    font-size: 3rem;
+}
+#paginaFB img{
+    width: 500px;
+}
+.infoFB{
+    padding: 25px;
+    margin: auto;
+    overflow: hidden
+}
+.infoFB img{
+    width: 100px;
+}
+.infoFB h3{
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+#TW h1{
+    font-size: 3rem;
+}
+#paginaTW img{
+    width: 500px;
+}
+.infoTW{
+    padding: 25px;
+    margin: auto;
+    overflow: hidden
+}
+.infoTW img{
+    width: 100px;
+}
+.infoTW h3{
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+}
+
+
+

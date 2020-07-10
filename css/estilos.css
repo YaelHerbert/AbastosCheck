@@ -1,0 +1,427 @@
+@font-face{
+    font-family:"CenturyGothic";
+    src:url("../fonts/CenturyGothic.ttf");
+}
+@font-face{
+    font-family:"LeagueSpartan-Bold";
+    src:url("../fonts/LeagueSpartan-Bold.otf");
+}
+
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;/**/
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 0px;
+    font-family: CenturyGothic,sans-serif;
+    padding-top: 75px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+    /*NAVBAR*/
+
+header{
+    background-color: #00812c;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    min-width: 320px;
+}   
+    figure{
+        width: 20%;
+        padding:5px 0px;
+        display: inline-block;
+        min-width: 190px; 
+    }
+        #logotipo{
+            width: 65px;
+            display: inline-block;
+            vertical-align: middle;
+        }   
+            #nombre{
+                font-size: 1.5rem;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                color: #ffffff;
+            }
+            #menu-ham{
+                display: none;
+            }
+            #abrir-ham, #cerrar-ham{
+                text-align: center;
+                min-width: 50px;
+                vertical-align: bottom;
+                height: 50px;
+                display: none;
+            }
+        
+            #abrir-ham img, #cerrar-ham img{
+                width: 30px;
+                vertical-align: middle;
+                border: 1px solid #ffffff;
+            }
+
+    #menuPrincipal{
+        width: 75%;
+        display: inline-block;
+        text-align:right;
+        padding-right: 5%;
+    
+    }
+    
+    .opcion{
+        font-size: 1rem;
+        color:rgba(255, 255, 255, 0.7) ;
+        text-decoration:none;   
+        padding: 15px 20px;
+        display: inline-block;
+    }
+        .opcion:hover{
+            color: #ffffff;
+    
+        }
+
+        /*BARRA DE BUSQUEDA*/
+
+    #barraBusqueda{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    #barraBusqueda h1{
+        font-size: 75px;
+        margin-bottom: 150px;
+        font-family: LeagueSpartan-Bold, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    #barraBusqueda input{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 100px;
+        font-size: 45px;
+        font-family: Century Gothic, sans-serif;
+    }
+    .imgPrincipal{
+        background: url(../images/Central2.jpg) no-repeat fixed;
+        background-position: top;
+        background-size: 100% 210%;
+    }
+    
+    /*SECCIONES*/
+
+    .secciones{
+        padding: 10% 5%;
+    }
+
+    .info{
+        width: 400px;
+        text-align: center;
+        display: inline-block;
+        overflow: hidden;
+        padding-bottom: 2.5%;
+    }
+    
+    .info img:hover{
+        box-shadow: 0px 0px 5px #999;
+    }
+    
+    .separar-izq{
+        margin-left: 3%;
+    }
+
+    .info img{
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ccc;
+    }
+
+    .info h3{
+        font-size: 1.3rem;
+        padding: 20px 0 10px 0;
+    }
+
+    .info p{
+        font-size: 1rem;
+        padding: 10px 20px;
+        line-height: 1.5rem;
+    }
+
+    .info a{
+        font-size: 1rem;
+        margin: 0 auto;
+        padding: 5px;
+        width: 110px;
+        background-color: #1B2631;
+        text-decoration: none;
+        color:(255, 255, 255, 0.7);
+        border-radius: 5px;
+        color: #ffffff;
+        text-align: center;
+        border: 1px solid #fff;
+    }
+        .info a:hover{
+            background-color: #2b2b2b;
+        }
+
+    /*
+    #secciones a{
+        font-size: 1rem;
+        width: 110px;
+        padding: 5px;
+        margin:0 auto;
+        margin-bottom: 20px;
+    }
+    */
+
+    /*FOOTER*/
+    footer{
+        width: 100%;
+        background-color: #00812c;
+        color: #fff;
+        text-align: left;
+    }
+    
+    .contenedor-todo-footer{
+        width: 100%;
+        max-width: 1600px;
+        margin: auto;
+        padding: 40px;
+    }
+    
+    .contenedor-body{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    
+    .columna1{
+        max-width: 400px;
+    }
+    
+        .columna1 h1{
+        font-size: 22px;
+        }
+    
+        .columna1 a{
+        text-decoration: none;
+        color: #c7c7c7;
+        font-size: 1rem;
+
+        }
+            .columna1 a:hover{
+            color: #fff;
+            }
+    .columna2{
+        max-width: 400px;
+    }
+        .columna2 h1{
+            font-size: 22px;
+        }
+        .columna2 .fila{
+            margin-top: 20px;
+            display: flex;
+            font-size: 1rem;
+        }
+            .fila img{
+                width: 35px;
+                height: 36px;
+            }
+            .fila label{
+            margin-top: 10px;
+            margin-left: 20px;
+            
+            }
+            .fila label a{
+                color: #c7c7c7;
+                text-decoration: none;
+            }
+                .fila label a:hover{
+                    color: #fff;
+                }
+    .columna3{
+        max-width: 400px;
+    }
+        .columna3 h1{
+            font-size: 22px;
+        }
+        .columna3 .fila{
+            margin-top: 20px;
+            display: flex;
+            font-size: 1rem;
+        }
+
+        .columna3 img{
+            width: 36px;
+            height: 36px;
+        }
+
+        .columna3 .fila label{
+            margin-top: 10px;
+            margin-left: 20px;
+            max-width: 150px;
+        }
+    
+        .contenedor-links{
+            width: 100%;
+            background: #004718;
+        }
+    
+    .footer{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    
+    .copyright{
+        color: #c7c7c7;
+        font-size: 1rem;
+    }
+        .copyright a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1rem;
+    }
+    .terminos a{
+        text-decoration: none;
+        color: #c7c7c7;
+        font-size: 1rem;
+        padding-right: 20px;
+    }
+    .terminos a:hover{
+        color: #fff;
+    }
+/*----------------------------CONTACTO----------------------------*/
+    
+#tituloContacto{
+    width: 100%;
+    padding: 75px;
+}
+
+#tituloContacto h1{
+    font-size: 4rem;
+}
+
+        /*FACEBOOK*/
+    
+    #FB{
+        padding: 75px;
+        display: inline-flex;
+        overflow: hidden;
+        width: 100%;
+    }
+        #FB h1{
+            font-size: 4rem;
+        }
+        #paginaFB{
+            text-align: center;
+            margin: auto;
+            overflow: hidden
+        }
+        #paginaFB img{
+            width: 500px;
+        }
+        .infoFB{
+            padding: 100px;
+            margin: auto;
+            overflow: hidden
+        }
+        .infoFB img{
+            width: 166px;
+        }
+        .infoFB h3{
+            font-size: 1.0rem;
+            margin-top: 20px;
+        }
+        .infoFB a{
+            text-decoration: none;
+            color: #3b5998;
+        }
+
+        /*TWITTER*/
+    
+        #TW{
+            padding: 75px;
+            display: inline-flex;
+            overflow: hidden;
+            width: 100%;
+        }
+            #TW h1{
+                font-size: 4rem;
+            }
+            #paginaTW{
+                text-align: center;
+                margin: auto;
+                overflow: hidden
+            }
+            #paginaTW img{
+                width: 750px;
+            }
+            .infoTW{
+                padding: 100px;
+                margin: auto;
+                overflow: hidden
+            }
+            .infoTW img{
+                width: 250px;
+            }
+            .infoTW h3{
+                font-size: 1.5rem;
+                margin-top: 25px;
+            }
+            .infoTW a{
+                text-decoration: none;
+                color: #00acee;
+            }
+            .infoTW a:hover{
+                color: #00658d;
+            }
+
+        #correoR{
+            width: 100%;
+            padding: 75px;
+            margin: 0 auto;
+            max-width: 1600px
+        }
+        #correoR h1{
+            font-size: 3rem;
+            padding: 100px;
+        }
+        #correoR h3{
+            font-size: 1.5rem;
+            padding-bottom: 100px;
+        }
+
+/*--------------------------AVISOS DE PRIVACIDAD  TERMINOS Y CONDICIONES----------------------------*/
+#cajaAvisos{
+    padding: 50px;
+    text-align: left;
+    border: 1px solid #2b2b2b;
+}
+
+.avisos{
+    font-size: 1rem;
+}
+    .avisos h1{
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 50px;
+    }
+/*--------------------------PAGINAS EN CONTRUCCION----------------------------*/
+
+#construccion{
+    width: 100%;
+}
